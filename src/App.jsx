@@ -71,6 +71,46 @@ function App() {
           </div>
         </div>
       </section>
+        
+      {/* Projects Section */}
+      <section className="py-16 px-4 bg-white text-center">
+        <h2 className="text-3xl font-bold text-primary mb-12">Projects</h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          
+          {/* Project 1 */}
+          <div className="bg-purple-50 shadow-md rounded-lg p-6 hover:shadow-xl transition">
+            <h3 className="text-xl font-semibold mb-2">Password Enforcement Tool</h3>
+            <p className="text-sm text-gray-700 mb-4">
+              A security tool built in Python to validate password strength with real-time feedback and admin audit logs.
+            </p>
+            <div className="text-sm text-gray-500 mb-2">Tech: Python</div>
+            <a href="https://github.com/YOUR_USERNAME/password-tool" className="text-primary hover:underline" target="_blank">View Code</a>
+          </div>
+
+          {/* Project 2 */}
+          <div className="bg-purple-50 shadow-md rounded-lg p-6 hover:shadow-xl transition">
+            <h3 className="text-xl font-semibold mb-2">Survey Web App</h3>
+            <p className="text-sm text-gray-700 mb-4">
+              A full-stack survey platform built with cloud hosting, optimized for reliability and usability.
+            </p>
+            <div className="text-sm text-gray-500 mb-2">Tech: React, Azure, Node.js</div>
+            <a href="https://github.com/YOUR_USERNAME/survey-app" className="text-primary hover:underline" target="_blank">View Code</a>
+          </div>
+
+          {/* Project 3 */}
+          <div className="bg-purple-50 shadow-md rounded-lg p-6 hover:shadow-xl transition">
+            <h3 className="text-xl font-semibold mb-2">Embedded TI MSP System</h3>
+            <p className="text-sm text-gray-700 mb-4">
+              Developed embedded applications using MSP430 microcontrollers with real-time control.
+            </p>
+            <div className="text-sm text-gray-500 mb-2">Tech: C, TI MSP430, RTOS</div>
+            <a href="https://github.com/YOUR_USERNAME/embedded-ti" className="text-primary hover:underline" target="_blank">View Code</a>
+          </div>
+
+        </div>
+      </section>
+
+
 
       {/* Contact Section */}
       <section id="contact" className="py-16 px-4 bg-purple-50 text-center">
