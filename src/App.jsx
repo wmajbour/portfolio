@@ -84,7 +84,7 @@ function App() {
               A security tool built in Python to validate password strength with real-time feedback and admin audit logs.
             </p>
             <div className="text-sm text-gray-500 mb-2">Tech: Python</div>
-            <a href="https://github.com/YOUR_USERNAME/password-tool" className="text-primary hover:underline" target="_blank">View Code</a>
+            <a href="https://github.com/wmajbour/password-tool" className="text-primary hover:underline" target="_blank">View Code</a>
           </div>
 
           {/* Project 2 */}
@@ -94,7 +94,7 @@ function App() {
               A full-stack survey platform built with cloud hosting, optimized for reliability and usability.
             </p>
             <div className="text-sm text-gray-500 mb-2">Tech: React, Azure, Node.js</div>
-            <a href="https://github.com/YOUR_USERNAME/survey-app" className="text-primary hover:underline" target="_blank">View Code</a>
+            <a href="https://github.com/wmajbour/survey-app" className="text-primary hover:underline" target="_blank">View Code</a>
           </div>
 
           {/* Project 3 */}
@@ -104,7 +104,7 @@ function App() {
               Developed embedded applications using MSP430 microcontrollers with real-time control.
             </p>
             <div className="text-sm text-gray-500 mb-2">Tech: C, TI MSP430, RTOS</div>
-            <a href="https://github.com/YOUR_USERNAME/embedded-ti" className="text-primary hover:underline" target="_blank">View Code</a>
+            <a href="https://github.com/wmajbour/embedded-ti" className="text-primary hover:underline" target="_blank">View Code</a>
           </div>
 
         </div>
