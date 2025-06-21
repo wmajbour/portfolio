@@ -4,7 +4,7 @@ export default {
     "./src/**/*.{js,jsx}"
   ],
 
-  darkmode: 'class',
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
