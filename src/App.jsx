@@ -320,7 +320,7 @@ function App() {
             Check out my resume for a detailed overview of my skills, education, and work experience.
           </p>
           <a
-            href="/portfolio/resume.pdf"
+            href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary-dark transition"
