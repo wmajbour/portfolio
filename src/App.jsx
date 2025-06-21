@@ -1,8 +1,42 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function App() {
+
+
+  const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    const savedMode = localStorage.getItem('theme');
+    if (savedTheme == 'dark') {
+      document.documentElement.classList.add('dark');
+      setDarkMode(true);
+    }
+  }, []);
+
+
+  const toggleDarkMode = () => {
+    if (darkMode) {
+      document.documentElement.classList.remove('dark');
+      localStorage.setItem('theme', 'light');
+    } else {
+      document.documentElement.classList.add('dark');
+      localStorage.setItem('theme', 'dark');
+    }
+    setDarkMode(!darkMode);
+  }
+
   return (
-    <main className="font-poppins scroll-smooth">
+    <main className="font-poppins scroll-smooth bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100" transition-colors duration-300>
+      {/*Toggle Dark Mode Button */}
+      <div className="abolute top-4 righ -4">
+        <button
+          onClick={toggleDarkMode}
+          className="bg-gray-200 dark:bg-gray-800 text-sm px-4 py-2 rounded shadow hover:scale-105 transition"
+        >
+          {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
+        </button>
+      </div>
+      
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-b from-purple-200 to-white px-4">
         <h1 className="text-5xl font-extrabold text-primary mb-4">Waleed Majbour</h1>
